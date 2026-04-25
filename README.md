@@ -67,7 +67,8 @@ CC-ResSiamNet is a 6-depth Siamese U-Net with cross-connections between branches
 - **Loss:** Masked Huber loss, applied only at pixels with valid ITS_LIVE observations
 
 The architecture accepts an arbitrary number of input channels (`in_ch`), making it compatible with any subset of the 26 Sentinel bands.
-![Img] (https://github.com/udayDarbar/CC_ResSiamNet-26/blob/main/cc_ressiamnet_architecture.png)
+<img width="5000" height="3750" alt="cc_ressiamnet_architecture" src="https://github.com/udayDarbar/CC_ResSiamNet-26/blob/main/cc_ressiamnet_architecture.png" />
+
 ---
 
 ## Large-Data Design
